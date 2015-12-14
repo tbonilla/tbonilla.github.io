@@ -1,0 +1,26 @@
+header {
+	background-color: $bg-header;
+	background-image: $texture;
+	overflow: hidden;
+}
+
+.avatar-image {
+	display: block;
+	margin: 0 auto;
+}
+
+.header-content {
+	text-align: center;
+}
+
+.intro-text {
+	@include font-size(24);
+	font-family: $headlines-font;
+	margin: 20px 10px;
+}
+
+.special-letter {
+	@include font-size(50);
+	color: $headlines-color;
+	text-shadow: $headlines-shadow 2px 2px;
+}

@@ -1,0 +1,51 @@
+*,
+*:before,
+*:after {
+	box-sizing: inherit;
+}
+
+html {
+	box-sizing: border-box;
+}
+
+body {
+	background-color: $bg-body;
+	background-image: $texture;
+	width: 100%;
+}
+
+a {
+	color: $links;
+	font-family: $general-font;
+}
+
+h1 {
+	margin: 0;
+}
+
+h2 {
+	@include font-size(24);
+	color: $headlines-color;
+	font-family: $headlines-font;
+	text-align: center;
+	text-shadow: $headlines-shadow 2px 2px;
+}
+
+h3,
+h4 {
+	font-family: $general-font;
+}
+
+h3 {
+	color: $headlines-color;
+}
+
+img {
+	height: auto;
+	max-width: 100%;
+}
+
+p {
+	color: $text-color;
+	font-family: $general-font;
+}

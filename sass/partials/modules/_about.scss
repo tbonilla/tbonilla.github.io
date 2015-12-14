@@ -1,0 +1,75 @@
+.about-descript {
+	margin: 0 5%;
+	width: 90%;
+	@media (min-width: 768px) {
+		float: left;
+		width: 45%;
+	}
+
+	@media (min-width: 1280px) {
+		margin: 0;
+	}
+}
+
+.my-photo {
+	text-align: center;
+	width: 100%;
+	@media (min-width: 768px) {
+		float: left;
+		width: 45%;
+	}
+}
+
+// Knowledges
+.knowl-list {
+    display: inline-block;
+    text-align: center;
+    vertical-align: top;
+    width: 100%;
+}
+
+.knowl-list-item {
+	display: inline-block;
+	margin: 0 5px 10px 0;
+	padding: 22px;
+	text-align: center;
+	width: 45%;
+
+	h4 {
+		margin: 0;
+   		font-size: 15px;
+	}
+}
+
+// Knowl-list-item bg-colors
+.ai {
+	background-color: rgba(251, 176, 52, .6); //#FBB034;
+}
+
+.aps {
+	background-color: rgba(0, 164, 228, .6); //#00A4E4;
+}
+
+.css3 {
+	background-color: rgba(51, 153, 255, .6); //#3399FF;
+}
+
+.github {
+	background-color: rgba(51, 51, 51, .6); //#333333;
+}
+
+.html5 {
+	background-color: rgba(227, 79, 38, .6); //#E34F26;
+}
+
+.js {
+	background-color: rgba(255, 218, 62, .6); //#FFDA3E;
+}
+
+.rwd {
+	background-color: rgba(42, 241, 215, .6); //#2AF1D7;
+}
+
+.sass {
+	background-color: rgba(205, 102, 154, .6); //#CD669A;
+}

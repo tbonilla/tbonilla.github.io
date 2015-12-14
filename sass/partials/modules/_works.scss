@@ -1,0 +1,24 @@
+.show-work-info img {
+	cursor: pointer;
+	vertical-align: top;
+}
+
+.work-accordion li {
+	margin-bottom: 15px;
+}
+
+.work-info {
+	background-color: $bg-works-info;
+	display: block;
+	height: auto;
+	overflow: hidden;
+	padding: 15px;
+	width: 100%;
+}
+
+.work-link {
+	border: 1px solid $links;
+	color: $links;
+	display: inline-block;
+	padding: 10px;
+}
